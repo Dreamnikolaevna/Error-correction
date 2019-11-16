@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            h1#aaa { color: #FF0000; background-color: #000000; }
+            h2#bbb { color: #00ff00; background-color: #aa0000; }
+            h3#ccc { color: #0000ff; background-color: #00aa00; }
+ 
+            td.highlight:hover {
+                color: red;
+                font-weight: bold;
+            }
+            ul ol {
+                color: red;
+                font-size: 24px;
+            }
+        </style>
+    </head>
+ 
+    <body>
+        <h1> Error correction - Maksimova D. IU4-12B </h1>
+        <div>
+            <h2> Task 1 </h2>
+            <h1 id="aaa"> QQQQ </h1>
+            <h2 id="bbb"> QQQQQq </h2>
+            <h3 id="ccc"> efwfwef <h3>
+        </div>
+        <div>
+            <h2> Task 2 </h2>
+            <table>
+                <tr>
+                    <td> AAAA </td>
+                    <td> BBBB </td>
+                </tr>
+                <tr>
+                    <td class="highlight"> CCCC </td>
+                    <td class="highlight"> DDDD </td>
+                </tr>
+                <tr>
+                    <td class="highlight"> EEEE </td>
+                    <td class="highlight"> FFFF </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h2> Task 3 </h2>
+            <ul>
+                <li> aaa </li>
+                <li>
+                    <ol>
+                        <li> bbb </li>
+                        <li> ccc </li>
+                        <li> ddd </li>
+                        <li> eee </li>
+                    </ol>
+                </li>
+                <li> fff </li>
+                <li> ggg </li>
+            </ul>
+        </div>
+    </body>
+</html>
